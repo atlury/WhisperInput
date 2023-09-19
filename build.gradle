@@ -20,14 +20,3 @@ allprojects {
 ext {
     compileSdkVersion = 33
 }
-
-android {
-    buildTypes {
-        release {
-            signingConfig null
-        }
-         debug {
-                signingConfig null
-            }        
-    }
-}
