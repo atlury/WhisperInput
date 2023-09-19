@@ -20,3 +20,9 @@ allprojects {
 ext {
     compileSdkVersion = 33
 }
+
+buildTypes {
+    release {
+        signingConfig null
+    }
+}
