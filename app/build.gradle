@@ -68,7 +68,7 @@ android {
         debug {
             debuggable true
             jniDebuggable false
-            signingConfig signingConfigs.release
+            signingConfig null
         }
         release {
             debuggable false
@@ -76,7 +76,7 @@ android {
             shrinkResources true
             proguardFile getDefaultProguardFile('proguard-android-optimize.txt')
             proguardFile 'proguard.cfg'
-            signingConfig signingConfigs.release
+            signingConfig null
         }
     }
 
